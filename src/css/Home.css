@@ -1,0 +1,60 @@
+.container{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.jumbotron{
+  background: linear-gradient(20deg, #EAF9D9 30%, #61C9A8  80%);
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron{
+    background: linear-gradient(20deg, #EAF9D9 30%, #61C9A8  80%);
+    width: 100%;
+  }
+  .col-xs-12{
+    padding-top: 10px;
+    width: 80%
+  }
+}
+
+p{
+  font-family: "URW Chancery L", cursive;
+  padding-left:80px;
+}
+
+a{
+  padding-left: 190px;
+}
+
+.col-xs-4{
+  width: 100%;
+  padding-top: 80px;
+}
+.col-xs-12{
+
+}
+
+.col-lg-12{
+  padding-top: 30px;
+}
+
+
+.col-md-12{
+  width: 100%;
+  padding-top: 80px;
+}
+
+h4{
+  font-size: 27px;
+  padding-left: 16px;
+}
+
+button{
+  width: 42%;
+  border-radius: 10px;
+  background: #61C9A8;
+  height: 45px;
+  padding: 45px;
+  padding-left: 32px;
+}
